@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import LoginContainer from './components/containers/Login';
-import HomeContainer from './components/containers/Home'
+import LoginContainer from './containers/Login';
+import HomeContainer from './containers/Home'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faGhost } from '@fortawesome/free-solid-svg-icons'
 

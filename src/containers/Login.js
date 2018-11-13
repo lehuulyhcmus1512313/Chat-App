@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../../App.css';
+import '../App.css';
 import Login from '../presentationals/Login'
 import { withFirebase } from 'react-redux-firebase'
 

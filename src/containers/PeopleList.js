@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../../css/LogoutButton.css';
+import '../css/LogoutButton.css';
 
 class PeopleListContainer extends Component {
     render() {
