@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400);
+.navigation {
+    width: 100%;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.navigation:hover {
+    cursor: pointer;
+}
+
+
+.logout {
+    font-size: .8em;
+    font-family: 'Arial', sans-serif;
+    right: -15px;
+    bottom: -5px;
+    letter-spacing: 3px;
+    opacity: 0;
+    
+}
+
+.btnLogout {
+    float: right;
+    padding: 12px;
+    margin: 15px;
+    color: white;
+    width: 50px;
+    background-color: #0e247e;
+}
+
+span:hover {
+    width: 120px;
+}
+
+span:hover .logout {
+    opacity: .9;
+}
